@@ -1,0 +1,8 @@
+select {
+    margin-left: 100px;
+    margin-top: 50px; 
+}
+
+#chart_div {
+    height: 500px;
+}

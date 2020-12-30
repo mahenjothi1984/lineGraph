@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple Line Chart</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>  
+    </head>
+    <body>
+        <select id="graph-type">
+                <option value="" disabled selected>Select your option</option>
+                <option value="clickThruRate">Click thru rate</option>
+                <option value="sales">Sales</option>
+                <option value="pageViews">Page views</option>
+                <option value="orders">Orders</option>
+        </select>
+        <div id="chart_div"></div>
+        <script src="./js/libs/jquery.js"></script>
+        <script src="./js/libs/underscore.js"></script>
+        <script src="./js/libs/backbone.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
